@@ -1,0 +1,22 @@
+{
+  "name": "nemtheldotcom",
+  "version": "1.0.0",
+  "description": "Nem's first Express App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skidvanwarp/nemtheldotcom.git"
+  },
+  "author": "Kevin Strawn",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Skidvanwarp/nemtheldotcom/issues"
+  },
+  "homepage": "https://github.com/Skidvanwarp/nemtheldotcom#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
