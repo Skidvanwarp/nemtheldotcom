@@ -1,0 +1,30 @@
+body {
+  font-family: "Philosopher", serif;
+  font-size: 24px;
+}
+
+/* color for a tags (links) */
+a {
+  color: #00B7FF;
+}
+
+/* Anti-aliasing for fonts (Roboto was giving some trouble with large m's and n's) */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/Roboto-Thin.ttf')
+}
+
+@font-face {
+  font-family: 'Philosopher';
+  src: url('../fonts/philosopher/Philosopher-Regular.ttf')
+}
+
+@font-face {
+  font-family: 'wild_wood';
+  src: url('../fonts/wild_wood/JFWilwod.ttf')
+}
