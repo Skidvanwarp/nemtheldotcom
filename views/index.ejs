@@ -1,11 +1,29 @@
+<!-- views/pages/index.ejs -->
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Developer, Climber, Gamer, Philosopher, Shameless Punsman</p>
-  </body>
+<html lang="en">
+<head>
+  <% include partials/head.ejs %>
+</head>
+<body class="container">
+
+<h1><%= title %></h1>
+<p>Developer, Climber, Gamer, Philosopher, Shameless Punsman</p>
+
+<header>
+  <% include partials/header.ejs %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>About Me</h1>
+    <p>*Insert snobbery*</p>
+  </div>
+</main>
+
+<footer>
+  <% include partials/footer.ejs %>
+</footer>
+
+</body>
 </html>
