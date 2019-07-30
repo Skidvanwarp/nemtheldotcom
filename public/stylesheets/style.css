@@ -28,3 +28,39 @@ a {
   font-family: 'wild_wood';
   src: url('../fonts/wild_wood/JFWilwod.ttf')
 }
+
+/* background image styling */
+.bg {
+  /* Thanks to https://mdbootstrap.com/docs/jquery/css/background-image/ */
+
+  background-image: url("/images/free_mountains_1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* a-tag styling (thanks to w3schools.com) */
+/* unvisited link */
+a:link {
+  color: #000099;
+}
+
+/* visited link */
+a:visited {
+  color: #4d004d;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0000ff;
+}
+
+/* selected link */
+a:active {
+  color: #00004d;
+}

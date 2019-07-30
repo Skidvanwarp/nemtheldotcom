@@ -10,7 +10,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    res.render('', { title: 'Welcome to the Works of Kevin Strawn' });
+    res.render('', { title: 'Welcome to the Works of Nemthel' });
 });
 
 module.exports = router;
